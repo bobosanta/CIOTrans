@@ -220,7 +220,7 @@ nav a:hover {
 .about {
     padding-top: 3em;
     padding-bottom: 5em;
-    height: 500px;
+    min-height: 500px;
 }
 .about h1 {
     padding-bottom: 2em;
@@ -235,7 +235,7 @@ nav a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: inherit;
-    height: 300px;
+    min-height: 300px;
     padding-bottom: 4em;
 }
 
@@ -248,7 +248,7 @@ nav a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    min-height: 300px;
 }
 .more-info h1 {
    color: #ffffff;
@@ -262,6 +262,18 @@ nav a:hover {
 #map {
     height: 400px;
     width: auto;
+}
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 450px;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
 }
 .con {
     padding-bottom: 2em;
@@ -277,8 +289,13 @@ nav a:hover {
     height:2em;
     width: auto;
 }
+.contact-wrapper {
+    position: relative;
+}
 .toparrow {
-    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
 }
 .footer {
     width: 100%;
