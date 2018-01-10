@@ -107,7 +107,7 @@ nav li {
     margin-right: auto;
 }
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     display: inline-block;
     text-align: center;
     text-decoration: none; 
@@ -118,7 +118,7 @@ nav a:hover {
     text-decoration: none;
 }
 .toggle-nav .hamburger {
-    color: white;
+    color: rgb(131, 10, 10);
     display: none;
 }
 .expand {
@@ -143,14 +143,20 @@ nav a:hover {
     }
     nav li {
         width: 100%;
-        height: 5em;
+        height: 6em;
     }
     nav a {
         padding: 0;
         text-align: center;
+        color: rgb(131, 10, 10);
+    }
+    nav a:hover {
+        color: rgb(131, 10, 10);
+        border-bottom: 3px solid rgb(131, 10, 10);
+        text-decoration: none;
     }
     nav {
-        background-color: rgb(39, 39, 39);
+        background-color: rgb(255, 255, 255);
     }
     navu li:last-child {
         border-bottom: 3px solid #000;
