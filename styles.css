@@ -117,7 +117,7 @@ nav a:hover {
     color: white;
     display: none;
 }
-ul#nav.nav.expand {
+.expand {
     display: block;
 }
 @media (max-width: 768px) {
@@ -147,10 +147,10 @@ ul#nav.nav.expand {
     nav {
         background-color: rgb(5, 5, 54);
     }
-    nav li:last-child {
+    navu li:last-child {
         border-bottom: 3px solid #000;
     }
-    ul#nav.nav ul {
+    nav ul {
         display: none;
     }
     .ab {

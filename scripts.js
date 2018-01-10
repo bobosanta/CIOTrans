@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     // Toggle menu
     $('.hamburger').click(function(){
-        $('.nav').slideToggle(400, function(){
+        $('nav ul').slideToggle(400, function(){
             $(this).toggleClass('expand').css('display', '');
         });
     });
