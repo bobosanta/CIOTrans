@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+    // Toggle menu
+    $('.hamburger').click(function(){
+        $('#nav').slideToggle(400, function(){
+            $(this).toggleClass('expand').css('display', '');
+        });
+    });
+
+    // slider
     let sliderImages = document.querySelectorAll('.slide'),
             arrowLeft = document.querySelector('#arrow-left'),
             arrowRight = document.querySelector('#arrow-right'),
@@ -50,6 +58,9 @@ $(document).ready(function(){
 
     startSlide();
 
+    
+
+    
     // show content on scroll
     $(window).scroll(function(){
         $('.hide').each(function(){
@@ -64,6 +75,7 @@ $(document).ready(function(){
             }
         });
     });
+
 
 
     // Change color of children on hover on parent element
