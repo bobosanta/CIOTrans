@@ -110,7 +110,7 @@ nav a {
 }
 nav a:hover {
     color: white;
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
     text-decoration: none;
 }
 .toggle-nav .hamburger {
@@ -123,7 +123,7 @@ nav a:hover {
 @media (max-width: 768px) {
     .toggle-nav {
         display: block;
-        height: 50px;
+        height: 40px;
     }
     #hamburger {
         display: block;
@@ -139,6 +139,7 @@ nav a:hover {
     }
     nav li {
         width: 100%;
+        height: 5em;
     }
     nav a {
         padding: 0;
@@ -158,6 +159,9 @@ nav a:hover {
     }
     .more-info {
         padding-top: 2em;
+    }
+    .arrow {
+        display: none;
     }
 }
 
