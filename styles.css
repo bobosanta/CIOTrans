@@ -6,12 +6,15 @@ body, #slider, .wrap, .slide-content {
     height: 100vh;
     overflow-x: hidden;
 }
+
 p {
     font-weight: 400;
 }
+
 .hide {
     opacity: 0;
 }
+
 .wrap {
     text-align: center;
     position: relative;
@@ -27,9 +30,11 @@ p {
 .slide1 {
     background-image: url('assets/images/img1.jpg');
 }
+
 .slide2 {
     background-image: url('assets/images/img2.jpeg');
 }
+
 .slide3 {
     background-image: url('assets/images/img3.jpg');
 }
@@ -41,17 +46,21 @@ p {
     align-items: center;
     text-align: center;
 }
+
 .slide-content span {
     padding: 1em 0 1em 0;
     font-size: 3rem;
     color: white;
 }
+
 .slide-content  {
     color: #ffffff;
 }
+
 .slide-content span>span {
     color:rgb(131, 10, 10);
 }
+
 .arrow {
     cursor: pointer;
     position: absolute;
@@ -71,6 +80,7 @@ p {
     -webkit-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
+
 #arrow-right {
     right: 0;
     margin-right: 30px;
@@ -97,6 +107,7 @@ nav {
     height:auto;   
     transition: top 0.2s ease-in-out;
 }
+
 nav li {
     text-align: center;
     display: inline-block;
@@ -106,29 +117,35 @@ nav li {
     margin-left: auto;
     margin-right: auto;
 }
+
 nav a {
     color: rgb(255, 255, 255);
     display: inline-block;
     text-align: center;
     text-decoration: none; 
 }
+
 nav a:hover {
     color: white;
     border-bottom: 3px solid rgb(131, 10, 10);
     text-decoration: none;
 }
+
 .toggle-nav .hamburger {
     color: rgb(131, 10, 10);
     display: none;
 }
+
 .expand {
     display: block;
 }
+
 @media (max-width: 768px) {
     .toggle-nav {
         display: block;
         height: 40px;
     }
+    
     #hamburger {
         display: block;
         margin-right: 15px;
@@ -138,53 +155,67 @@ nav a:hover {
         transform: rotate(90deg);
         height: 40px;
     }
+    
     .hamburger:hover {
         cursor: pointer;
     }
+    
     nav li {
         width: 100%;
         height: 6em;
     }
+    
     nav a {
         padding: 0;
         text-align: center;
         color: rgb(131, 10, 10);
     }
+    
     nav a:hover {
         color: rgb(131, 10, 10);
         border-bottom: 3px solid rgb(131, 10, 10);
         text-decoration: none;
     }
+    
     nav {
         background-color: rgb(255, 255, 255);
     }
+    
     navu li:last-child {
         border-bottom: 3px solid #000;
     }
+    
     nav ul {
         display: none;
     }
+    
     .ab {
         display: none;
     }
+    
     .more-info {
         padding-top: 2em;
     }
+    
     .arrow {
         display: none;
     }
+    
     .slide-content span {
         padding: 0.5em 0 0.5em 0;
     }
+    
     .contact .con {
         padding-bottom: 10px;
     }
+    
 }
 
 /* Categorii */
 .categorii {
     border-bottom: 2px solid gray;
 }
+
 .box {
     position: absolute;
     transition: all 0.3s ease-in-out;
@@ -193,9 +224,11 @@ nav a:hover {
     -o-transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .box svg {
     padding-top: 20px;
 }
+
 .box .boxContent span {
     position: relative;
     left: 20%;
@@ -207,9 +240,11 @@ nav a:hover {
     margin: 1em 0;
     padding: 0;
 }
+
 .box .boxContent span:hover {
     border-top:3px solid white;
 }
+
 .box:hover {
     /* bottom: 2em; */
     background-color: rgb(131, 10, 10);
@@ -222,13 +257,16 @@ nav a:hover {
     padding-bottom: 5em;
     min-height: 500px;
 }
+
 .about h1 {
     padding-bottom: 2em;
     position: relative;
 }
+
 .about p {
     padding-top: 2em;
 }
+
 .ab {
     background-image: url('assets/images/about.jpg');
     background-position: center;
@@ -250,31 +288,37 @@ nav a:hover {
     width: 100%;
     min-height: 300px;
 }
+
 .more-info h1 {
    color: #ffffff;
    padding-top: 2em;
    position: relative;
 }
+
 .more-info p {
     color: #ffffff;
     padding-top: 4em;
 }
+
 #map {
     height: 400px;
     width: auto;
 }
+
 .map-responsive{
     overflow: hidden;
     padding-bottom: 450px;
     position: relative;
     height: 0;
 }
+
 .map-responsive iframe{
     left: 0;
     top: 0;
     width: 100%;
     position: absolute;
 }
+
 .con {
     padding-bottom: 2em;
 }
@@ -284,19 +328,23 @@ nav a:hover {
     padding-top:0.5em;
     padding-bottom: 5em;
 }
+
 .contact img {
     padding: 0 1em 0 0;
     height:2em;
     width: auto;
 }
+
 .contact-wrapper {
     position: relative;
 }
+
 .toparrow {
     position: absolute;
     bottom: 10px;
     right: 0;
 }
+
 .footer {
     width: 100%;
     height: 40px;
